@@ -34,10 +34,9 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.Main_JSON_Parser"
+    mainClass = "org.jsonparser.MainJsonParser"
 }
 
 tasks.named<Test>("test") {
-    // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
